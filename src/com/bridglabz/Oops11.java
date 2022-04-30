@@ -19,7 +19,6 @@ public class Oops11//deck of cards
             deck[i] = deck[index];
             deck[index] = temp;
         }
-
         // Display the all the cards
         for (int i = 0; i < 52; i++) {
             String suit = suits[deck[i] / 13];
